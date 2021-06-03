@@ -1,0 +1,5 @@
+mpicxx -o bfs bfs.cpp -fopenmp
+ mpiexec -np 4 ./bfs
+mpicxx -o binary binary.c -fopenmp
+chetan@chetan-VirtualBox:~/Downloads/LP-1-20201208T111810Z-001/LP-1/HPC/Assignment 4$ mpiexec -np 4 ./binary
+
